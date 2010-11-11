@@ -4,15 +4,20 @@
         src="/flot/excanvas.min.js"></script><![endif]-->
     <script language="javascript" type="text/javascript" src="/flot/jquery.js"></script>
     <script language="javascript" type="text/javascript" src="/flot/jquery.flot.js"></script>
+    <script language="javascript" type="text/javascript" src="/jquery.cookie.js"></script>
 </head>
 <body>
 
 <h1 align="center">OurNaNoWriMo</h1>
 
-    <div align="center" id="placeholder"
+<div style="width: 1100px">
+    <& .scoreboard, %ARGS &>
+
+    <div id="placeholder"
     style="width:800px;height:400px;margin: 50px;">
         <i>Loading graph...</i>
     </div>
+</div>
 
     <script id="source">
 $(function () {
@@ -28,8 +33,12 @@ function onDataReceived (series) {
         xaxis: { mode: "time" },
         lines: { show: true },
         points: { show: true },
-        grid: { hoverable: true }
-        });
+        grid: { hoverable: true },
+        legend: { 
+            show: true, 
+            position: "nw"
+        }
+    });
 }
 
     var previousPoint = null;
@@ -53,7 +62,8 @@ function onDataReceived (series) {
             }
     });
 
-
+ $("#who").val( $.cookie( 'who' ) );
+ 
 });
 
  function showTooltip(x, y, contents) {
@@ -70,23 +80,19 @@ function onDataReceived (series) {
     }
 
 
-
+function change_who() {
+    $.cookie( 'who', $("#who").val(), {expires: 10000 } );
+}
 
 </script>
 
 <form method="GET" action="add">
 
-<SELECT name="who">
-<option>Andrea</option>
-<option>Anja</option>
-<option>Ari</option>
-<option>Doro</option>
-<option>Grit</option>
-<option>Judith</option>
-<option>Jule</option>
-<option>Nicola</option>
-<option>Petra</option>
-</SELECT>
+<select id="who" name="who" onchange="change_who()">
+% for ( sort keys %wrimoers ) {
+<option><% $_ %></option>
+% }
+</select>
 
 &nbsp; &nbsp; &nbsp; Wordcount: <INPUT type="text" name="count"> 
 &nbsp; &nbsp; &nbsp;
@@ -94,6 +100,20 @@ function onDataReceived (series) {
 
 </form>
 
+<%def .scoreboard>
+<%args>
+%wrimoers
+</%args>
+<div style="float: right">
+% for ( reverse sort { $wrimoers{$a} <=> $wrimoers{$b} } keys %wrimoers ) {
+<div> <% $_ %> - <% $wrimoers{$_} %> words </div>
+% }
+</div>
+</%def>
+
 
 </body>
 </html>
+<%args>
+%wrimoers
+</%args>

@@ -15,6 +15,8 @@ WriteMakefile(
         'Test::More' => 0,
         'YAML'       => 0,
         'Dancer'     => 1.1901,
+        'Dancer::Template::Mason'     => 0,
+        'DateTime::Format::Flexible' => 0,
     },
     dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean               => { FILES => 'ournowrimo-*' },

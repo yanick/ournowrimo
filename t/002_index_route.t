@@ -6,5 +6,9 @@ use warnings;
 use ournowrimo;
 use Dancer::Test;
 
-route_exists [GET => '/'], 'a route handler is defined for /';
-response_status_is ['GET' => '/'], 200, 'response status is 200 for /';
+route_exists [GET => '/graph'], 'a route handler is defined for /graph';
+response_status_is ['GET' => '/graph'], 200, 'response status is 200 for /graph';
+
+my $resp = get_response([ 'GET' => '/data' ]);
+
+print $resp->{content};

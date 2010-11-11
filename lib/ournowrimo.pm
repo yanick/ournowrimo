@@ -11,8 +11,10 @@ my $count_file = 'count.dat';
 
 our $VERSION = '0.1';
 
-get '/' => sub {
-    template 'index';
+get '/graph' => sub {
+    template 'index', {
+        wrimoers => get_wrimoers(),
+    };
 };
 
 get '/add' => sub {
@@ -66,5 +68,19 @@ get '/data' => sub {
 
     to_json( \@json );
 };
+
+sub get_wrimoers {
+    my %wrimoers;
+
+    open my $fh, '<', $count_file;
+    my %c;
+    while(<$fh>){
+        my ( $undef, $name, $count ) = split /\s*,\s*/;
+        $name or next;
+        $c{$name} = $count;
+    }
+
+    return \%c;
+}
 
 true;
