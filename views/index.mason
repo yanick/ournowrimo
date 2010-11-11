@@ -1,0 +1,99 @@
+<html>
+<head>
+    <!--[if IE]><script language="javascript" type="text/javascript"
+        src="/flot/excanvas.min.js"></script><![endif]-->
+    <script language="javascript" type="text/javascript" src="/flot/jquery.js"></script>
+    <script language="javascript" type="text/javascript" src="/flot/jquery.flot.js"></script>
+</head>
+<body>
+
+<h1 align="center">OurNaNoWriMo</h1>
+
+    <div align="center" id="placeholder"
+    style="width:800px;height:400px;margin: 50px;">
+        <i>Loading graph...</i>
+    </div>
+
+    <script id="source">
+$(function () {
+          $.ajax({
+                url: "/data",
+                method: 'GET',
+                dataType: 'json',
+                success: onDataReceived
+            });
+
+function onDataReceived (series) {
+    $.plot($("#placeholder"), series, {
+        xaxis: { mode: "time" },
+        lines: { show: true },
+        points: { show: true },
+        grid: { hoverable: true }
+        });
+}
+
+    var previousPoint = null;
+    $("#placeholder").bind("plothover", function (event, pos, item) {
+
+            if (item) {
+                if (previousPoint != item.datapoint) {
+                    previousPoint = item.datapoint;
+                    
+                    $("#tooltip").remove();
+                    var x = item.datapoint[0].toFixed(2),
+                        y = item.datapoint[1].toFixed(2);
+                    
+                    showTooltip(item.pageX, item.pageY,
+                                item.series.label + ": " + Math.floor( y ) + " words" );
+                }
+            }
+            else {
+                $("#tooltip").remove();
+                previousPoint = null;            
+            }
+    });
+
+
+});
+
+ function showTooltip(x, y, contents) {
+        $('<div id="tooltip">' + contents + '</div>').css( {
+            position: 'absolute',
+            display: 'none',
+            top: y + 5,
+            left: x + 5,
+            border: '1px solid #fdd',
+            padding: '2px',
+            'background-color': '#fee',
+            opacity: 0.80
+        }).appendTo("body").fadeIn(200);
+    }
+
+
+
+
+</script>
+
+<form method="GET" action="add">
+
+<SELECT name="who">
+<option>Andrea</option>
+<option>Anja</option>
+<option>Ari</option>
+<option>Doro</option>
+<option>Grit</option>
+<option>Judith</option>
+<option>Jule</option>
+<option>Nicola</option>
+<option>Petra</option>
+</SELECT>
+
+&nbsp; &nbsp; &nbsp; Wordcount: <INPUT type="text" name="count"> 
+&nbsp; &nbsp; &nbsp;
+<INPUT type="submit" value='update'>
+
+</form>
+
+
+</body>
+</html>

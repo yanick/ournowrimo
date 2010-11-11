@@ -1,0 +1,542 @@
+[30520]  core @0.000016> loading application ournowrimo in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer.pm l. 179
+[30520]  core @0.165538> loading Standalone handler in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 29
+[30533]  core @0.000016> loading application ournowrimo in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer.pm l. 179
+[30533]  core @0.049277> loading Standalone handler in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 29
+[30533]  core @0.000142> request: GET / from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[30533] debug @0.000532> [hit #1] trying to match `/' against /^\/$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[30533]  core @0.000685> [hit #1]   --> got 1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 79
+[30533]  core @0.021301> [hit #1] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[30533]  core @0.000144> request: GET /css/style.css from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[30533]  core @0.087638> [hit #2] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[30533]  core @0.000143> request: GET /flot/jquery.js from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[30533]  core @0.009739> [hit #3] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[30533]  core @0.000140> request: GET /flot/jquery.flot.js from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[30533]  core @0.000552> [hit #4] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[30533]  core @0.000128> request: GET /favicon.ico from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[30533]  core @0.000512> [hit #5] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[30533]  core @0.000142> request: GET /favicon.ico from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[30533]  core @0.000631> [hit #6] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[30637]  core @0.000022> loading application ournowrimo in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer.pm l. 179
+[30637]  core @0.039539> loading Standalone handler in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 29
+[30637]  core @0.000144> request: GET / from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[30637] debug @0.000558> [hit #1] trying to match `/' against /^\/$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[30637]  core @0.000710> [hit #1]   --> got 1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 79
+[30637]  core @0.075869> [hit #1] response: 404 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[30637]  core @0.000143> request: GET /css/error.css from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[30637]  core @0.093782> [hit #2] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[30637]  core @0.000143> request: GET /favicon.ico from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[30637]  core @0.000703> [hit #3] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[30680]  core @0.000024> loading application ournowrimo in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer.pm l. 179
+[30680]  core @0.065713> loading Standalone handler in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 29
+[30680]  core @0.000141> request: GET / from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[30680] debug @0.000567> [hit #1] trying to match `/' against /^\/$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[30680]  core @0.000730> [hit #1]   --> got 1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 79
+[30680]  core @0.018463> [hit #1] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[30680]  core @0.000141> request: GET /flot/jquery.js from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[30680]  core @0.096798> [hit #2] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[30680]  core @0.000137> request: GET /flot/jquery.flot.js from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[30680]  core @0.006615> [hit #3] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[30680]  core @0.000141> request: GET /favicon.ico from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[30680]  core @0.000574> [hit #4] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[31527]  core @0.000023> loading application ournowrimo in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer.pm l. 179
+[31537]  core @0.000023> loading application ournowrimo in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer.pm l. 179
+[31548]  core @0.000021> loading application ournowrimo in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer.pm l. 179
+[31548]  core @0.042533> loading Standalone handler in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 29
+[31555]  core @0.000019> loading application ournowrimo in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer.pm l. 179
+[31555]  core @0.056750> loading Standalone handler in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 29
+[31555]  core @0.000185> request: GET / from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[31555] debug @0.000630> [hit #1] trying to match `/' against /^\/$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[31555]  core @0.000794> [hit #1]   --> got 1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 79
+[31555]  core @0.013105> [hit #1] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[31555]  core @0.000141> request: GET /flot/jquery.js from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[31555]  core @0.064898> [hit #2] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[31555]  core @0.000140> request: GET /flot/jquery.flot.js from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[31555]  core @0.005683> [hit #3] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[31555]  core @0.000145> request: GET /data from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[31555] debug @0.000738> [hit #4] trying to match `/data' against /^\/$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[31555] debug @0.000886> [hit #4] trying to match `/data' against /^\/data$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[31555]  core @0.001003> [hit #4]   --> got 1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 79
+[31555]  core @0.001346> [hit #4] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[31555]  core @0.000141> request: GET /favicon.ico from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[31555]  core @0.000565> [hit #5] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[31688]  core @0.000021> loading application ournowrimo in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer.pm l. 179
+[31688]  core @0.047638> loading Standalone handler in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 29
+[31688]  core @0.000142> request: GET / from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[31688] debug @0.000559> [hit #1] trying to match `/' against /^\/$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[31688]  core @0.000713> [hit #1]   --> got 1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 79
+[31688]  core @0.029653> [hit #1] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[31688]  core @0.000128> request: GET /flot/jquery.js from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[31688]  core @0.084009> [hit #2] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[31688]  core @0.000150> request: GET /flot/jquery.flot.js from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[31688]  core @0.000566> [hit #3] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[31688]  core @0.000140> request: GET /data from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[31688] debug @0.000507> [hit #4] trying to match `/data' against /^\/$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[31688] debug @0.000632> [hit #4] trying to match `/data' against /^\/data$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[31688]  core @0.000752> [hit #4]   --> got 1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 79
+[31688]  core @0.083624> [hit #4] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[31688]  core @0.000139> request: GET /favicon.ico from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[31688]  core @0.000574> [hit #5] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[1769]  core @0.000022> loading application ournowrimo in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer.pm l. 179
+[1769]  core @0.083807> loading Standalone handler in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 29
+[1769]  core @0.000141> request: GET / from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[1769] debug @0.000552> [hit #1] trying to match `/' against /^\/$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[1769]  core @0.000771> [hit #1]   --> got 1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 79
+[1769]  core @0.029422> [hit #1] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[1769]  core @0.000142> request: GET /flot/jquery.js from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[1769]  core @0.087730> [hit #2] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[1769]  core @0.000142> request: GET /flot/jquery.flot.js from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[1769]  core @0.000554> [hit #3] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[1769]  core @0.000166> request: GET /data from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[1769] debug @0.000506> [hit #4] trying to match `/data' against /^\/$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[1769] debug @0.000633> [hit #4] trying to match `/data' against /^add$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[1769] debug @0.000753> [hit #4] trying to match `/data' against /^\/data$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[1769]  core @0.000853> [hit #4]   --> got 1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 79
+[1769]  core @0.031889> [hit #4] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[1769]  core @0.000199> request: GET /favicon.ico from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[1769]  core @0.000660> [hit #5] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[1769]  core @0.000143> request: GET /add from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[1769] debug @0.000528> [hit #6] trying to match `/add' against /^\/$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[1769] debug @0.000695> [hit #6] trying to match `/add' against /^add$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[1769] debug @0.000800> [hit #6] trying to match `/add' against /^\/data$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[1769]  core @0.001155> [hit #6] response: 404 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[1769]  core @0.000144> request: GET /css/error.css from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[1769]  core @0.000578> [hit #7] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[1769]  core @0.000145> request: GET /favicon.ico from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[1769]  core @0.000566> [hit #8] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[1779]  core @0.000022> loading application ournowrimo in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer.pm l. 179
+[1779]  core @0.058899> loading Standalone handler in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 29
+[1779]  core @0.000141> request: GET /add from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[1779] debug @0.000576> [hit #1] trying to match `/add' against /^\/$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[1779] debug @0.000824> [hit #1] trying to match `/add' against /^add$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[1779] debug @0.000948> [hit #1] trying to match `/add' against /^\/data$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[1779]  core @0.104197> [hit #1] response: 404 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[1779]  core @0.000141> request: GET /css/error.css from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[1779]  core @0.000606> [hit #2] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[1779]  core @0.000201> request: GET /favicon.ico from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[1779]  core @0.000641> [hit #3] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[1792]  core @0.000158> loading application ournowrimo in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer.pm l. 179
+[1792]  core @0.046880> loading Standalone handler in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 29
+[1792]  core @0.000143> request: GET /add from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[1792] debug @0.000575> [hit #1] trying to match `/add' against /^\/$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[1792] debug @0.000760> [hit #1] trying to match `/add' against /^\/add$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[1792]  core @0.000871> [hit #1]   --> got 1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 79
+[1792]  core @0.091693> [hit #1] response: 500 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[1792]  core @0.000143> request: GET /css/error.css from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[1792]  core @0.136489> [hit #2] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[1792]  core @0.000139> request: GET /favicon.ico from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[1792]  core @0.001049> [hit #3] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[1884]  core @0.000024> loading application ournowrimo in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer.pm l. 179
+[1884]  core @0.064334> loading Standalone handler in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 29
+[1884]  core @0.000140> request: GET /add from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[1884] debug @0.000559> [hit #1] trying to match `/add' against /^\/$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[1884] debug @0.000740> [hit #1] trying to match `/add' against /^\/add$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[1884]  core @0.000847> [hit #1]   --> got 1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 79
+[1884]  core @0.077685> [hit #1] response: 500 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[1884]  core @0.000140> request: GET /css/error.css from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[1884]  core @0.095756> [hit #2] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[1884]  core @0.000140> request: GET /favicon.ico from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[1884]  core @0.000626> [hit #3] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[2021]  core @0.000022> loading application ournowrimo in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer.pm l. 179
+[2021]  core @0.590960> loading Standalone handler in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 29
+[2021]  core @0.010404> request: GET /add from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[2021] debug @0.010879> [hit #1] trying to match `/add' against /^\/$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[2021] debug @0.011064> [hit #1] trying to match `/add' against /^\/add$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[2021]  core @0.011181> [hit #1]   --> got 1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 79
+[2021]  core @0.044015> [hit #1] response: 302 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[2021]  core @0.000213> request: GET /favicon.ico from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[2021]  core @0.060481> [hit #2] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[2042]  core @0.000022> loading application ournowrimo in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer.pm l. 179
+[2042]  core @0.586158> loading Standalone handler in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 29
+[2042]  core @0.000143> request: GET /add from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[2042] debug @0.000690> [hit #1] trying to match `/add' against /^\/$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[2042] debug @0.000890> [hit #1] trying to match `/add' against /^\/add$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[2042]  core @0.001005> [hit #1]   --> got 1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 79
+[2042]  core @0.030818> [hit #1] response: 302 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[2042]  core @0.000142> request: GET / from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[2042] debug @0.000666> [hit #2] trying to match `/' against /^\/$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[2042]  core @0.000851> [hit #2]   --> got 1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 79
+[2042]  core @0.026079> [hit #2] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[2042]  core @0.000140> request: GET /flot/jquery.js from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[2042]  core @0.095789> [hit #3] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[2042]  core @0.000140> request: GET /flot/jquery.flot.js from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[2042]  core @0.004059> [hit #4] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[2042]  core @0.000147> request: GET /data from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[2042] debug @0.000525> [hit #5] trying to match `/data' against /^\/$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[2042] debug @0.000722> [hit #5] trying to match `/data' against /^\/add$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[2042] debug @0.000852> [hit #5] trying to match `/data' against /^\/data$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[2042]  core @0.000951> [hit #5]   --> got 1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 79
+[2042]  core @0.035487> [hit #5] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[2042]  core @0.000224> request: GET /favicon.ico from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[2042]  core @0.000685> [hit #6] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[2215]  core @0.000024> loading application ournowrimo in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer.pm l. 179
+[2215]  core @0.611946> loading Standalone handler in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 29
+[2215]  core @0.000143> request: GET / from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[2215] debug @0.000573> [hit #1] trying to match `/' against /^\/$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[2215]  core @0.000730> [hit #1]   --> got 1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 79
+[2215]  core @0.051538> [hit #1] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[2215]  core @0.000146> request: GET /flot/jquery.js from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[2215]  core @0.131664> [hit #2] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[2215]  core @0.000140> request: GET /flot/jquery.flot.js from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[2215]  core @0.016937> [hit #3] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[2215]  core @0.000154> request: GET /data from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[2215] debug @0.000534> [hit #4] trying to match `/data' against /^\/$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[2215] debug @0.000692> [hit #4] trying to match `/data' against /^\/add$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[2215] debug @0.000819> [hit #4] trying to match `/data' against /^\/data$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[2215]  core @0.000918> [hit #4]   --> got 1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 79
+[2215]  core @0.071239> [hit #4] response: 500 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[2215]  core @0.000142> request: GET /favicon.ico from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[2215]  core @0.000696> [hit #5] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[2236]  core @0.000023> loading application ournowrimo in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer.pm l. 179
+[2251]  core @0.000020> loading application ournowrimo in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer.pm l. 179
+[2251]  core @0.484450> loading Standalone handler in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 29
+[2251]  core @0.000141> request: GET / from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[2251] debug @0.016562> [hit #1] trying to match `/' against /^\/$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[2251]  core @0.016766> [hit #1]   --> got 1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 79
+[2251]  core @0.029023> [hit #1] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[2251]  core @0.000329> request: GET /flot/jquery.js from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[2251]  core @0.085166> [hit #2] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[2251]  core @0.000144> request: GET /flot/jquery.flot.js from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[2251]  core @0.000608> [hit #3] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[2251]  core @0.000141> request: GET /data from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[2251] debug @0.000505> [hit #4] trying to match `/data' against /^\/$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[2251] debug @0.000633> [hit #4] trying to match `/data' against /^\/add$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[2251] debug @0.000754> [hit #4] trying to match `/data' against /^\/data$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[2251]  core @0.000852> [hit #4]   --> got 1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 79
+[2251]  core @0.033280> [hit #4] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[2251]  core @0.000143> request: GET /favicon.ico from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[2251]  core @0.000577> [hit #5] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[5709]  core @0.000020> loading application ournowrimo in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer.pm l. 179
+[5767]  core @0.000023> loading application ournowrimo in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer.pm l. 179
+[5776]  core @0.000025> loading application ournowrimo in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer.pm l. 179
+[5832]  core @0.000023> loading application ournowrimo in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer.pm l. 179
+[5832]  core @0.566410> loading Standalone handler in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 29
+[5832]  core @0.000144> request: GET / from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[5832] debug @0.000595> [hit #1] trying to match `/' against /^\/$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[5832]  core @0.000752> [hit #1]   --> got 1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 79
+[5832]  core @0.015874> [hit #1] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[5832]  core @0.000141> request: GET /flot/jquery.js from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[5832]  core @0.100858> [hit #2] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[5832]  core @0.000143> request: GET /flot/jquery.flot.js from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[5832]  core @0.000605> [hit #3] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[5832]  core @0.000142> request: GET /data from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[5832] debug @0.000525> [hit #4] trying to match `/data' against /^\/$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[5832] debug @0.000658> [hit #4] trying to match `/data' against /^\/add$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[5832] debug @0.000780> [hit #4] trying to match `/data' against /^\/data$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[5832]  core @0.000878> [hit #4]   --> got 1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 79
+[5832]  core @0.076300> [hit #4] response: 500 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[5832]  core @0.000141> request: GET /favicon.ico from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[5832]  core @0.009165> [hit #5] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[5887]  core @0.000022> loading application ournowrimo in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer.pm l. 179
+[5887]  core @0.675639> loading Standalone handler in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 29
+[5887]  core @0.000144> request: GET / from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[5887] debug @0.000568> [hit #1] trying to match `/' against /^\/$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[5887]  core @0.000724> [hit #1]   --> got 1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 79
+[5887]  core @0.017161> [hit #1] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[5887]  core @0.000144> request: GET /flot/jquery.js from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[5887]  core @0.098351> [hit #2] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[5887]  core @0.000141> request: GET /flot/jquery.flot.js from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[5887]  core @0.000557> [hit #3] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[5887]  core @0.000177> request: GET /data from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[5887] debug @0.000549> [hit #4] trying to match `/data' against /^\/$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[5887] debug @0.000674> [hit #4] trying to match `/data' against /^\/add$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[5887] debug @0.000794> [hit #4] trying to match `/data' against /^\/data$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[5887]  core @0.000891> [hit #4]   --> got 1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 79
+[5887]  core @0.068903> [hit #4] response: 500 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[5887]  core @0.000138> request: GET /favicon.ico from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[5887]  core @0.000619> [hit #5] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[5887]  core @0.000140> request: GET / from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[5887] debug @0.000514> [hit #6] trying to match `/' against /^\/$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[5887]  core @0.000656> [hit #6]   --> got 1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 79
+[5887]  core @0.005245> [hit #6] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[5887]  core @0.000140> request: GET /flot/jquery.js from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[5887]  core @0.000732> [hit #7] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[5887]  core @0.000139> request: GET /flot/jquery.flot.js from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[5887]  core @0.000553> [hit #8] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[5887]  core @0.000138> request: GET /data from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[5887] debug @0.000633> [hit #9] trying to match `/data' against /^\/$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[5887] debug @0.000765> [hit #9] trying to match `/data' against /^\/add$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[5887] debug @0.000886> [hit #9] trying to match `/data' against /^\/data$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[5887]  core @0.000985> [hit #9]   --> got 1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 79
+[5887]  core @0.016209> [hit #9] response: 500 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[5887]  core @0.000139> request: GET /favicon.ico from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[5887]  core @0.000558> [hit #10] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[5926]  core @0.000021> loading application ournowrimo in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer.pm l. 179
+[5926]  core @0.938057> loading Standalone handler in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 29
+[5926]  core @0.000142> request: GET / from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[5926] debug @0.000560> [hit #1] trying to match `/' against /^\/$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[5926]  core @0.000714> [hit #1]   --> got 1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 79
+[5926]  core @0.006966> [hit #1] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[5926]  core @0.000141> request: GET /flot/jquery.js from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[5926]  core @0.081511> [hit #2] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[5926]  core @0.000140> request: GET /flot/jquery.flot.js from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[5926]  core @0.000551> [hit #3] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[5926]  core @0.000138> request: GET /data from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[5926] debug @0.000517> [hit #4] trying to match `/data' against /^\/$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[5926] debug @0.000647> [hit #4] trying to match `/data' against /^\/add$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[5926] debug @0.000812> [hit #4] trying to match `/data' against /^\/data$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[5926]  core @0.000917> [hit #4]   --> got 1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 79
+[5926]  core @0.117708> [hit #4] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[5926]  core @0.000143> request: GET /favicon.ico from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[5926]  core @0.000580> [hit #5] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[5926]  core @0.000142> request: GET /add from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[5926] debug @0.000530> [hit #6] trying to match `/add' against /^\/$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[5926] debug @0.000694> [hit #6] trying to match `/add' against /^\/add$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[5926]  core @0.000796> [hit #6]   --> got 1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 79
+[5926]  core @0.062650> [hit #6] response: 302 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[5926]  core @0.000140> request: GET / from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[5926] debug @0.000506> [hit #7] trying to match `/' against /^\/$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[5926]  core @0.001116> [hit #7]   --> got 1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 79
+[5926]  core @0.002747> [hit #7] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[5926]  core @0.000142> request: GET /flot/jquery.js from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[5926]  core @0.000645> [hit #8] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[5926]  core @0.000140> request: GET /flot/jquery.flot.js from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[5926]  core @0.000560> [hit #9] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[5926]  core @0.000139> request: GET /data from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[5926] debug @0.000513> [hit #10] trying to match `/data' against /^\/$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[5926] debug @0.000640> [hit #10] trying to match `/data' against /^\/add$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[5926] debug @0.000763> [hit #10] trying to match `/data' against /^\/data$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[5926]  core @0.000862> [hit #10]   --> got 1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 79
+[5926]  core @0.059538> [hit #10] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[5926]  core @0.000142> request: GET /favicon.ico from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[5926]  core @0.000697> [hit #11] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[5956]  core @0.000020> loading application ournowrimo in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer.pm l. 179
+[5956]  core @0.860986> loading Standalone handler in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 29
+[5956]  core @0.000141> request: GET / from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[5956] debug @0.000555> [hit #1] trying to match `/' against /^\/$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[5956]  core @0.000712> [hit #1]   --> got 1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 79
+[5956]  core @0.021209> [hit #1] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[5956]  core @0.000140> request: GET /flot/jquery.js from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[5956]  core @0.071152> [hit #2] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[5956]  core @0.000137> request: GET /flot/jquery.flot.js from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[5956]  core @0.000552> [hit #3] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[5956]  core @0.000141> request: GET /data from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[5956] debug @0.000505> [hit #4] trying to match `/data' against /^\/$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[5956] debug @0.000635> [hit #4] trying to match `/data' against /^\/add$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[5956] debug @0.000759> [hit #4] trying to match `/data' against /^\/data$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[5956]  core @0.000857> [hit #4]   --> got 1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 79
+[5956]  core @0.111018> [hit #4] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[5956]  core @0.000141> request: GET /favicon.ico from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[5956]  core @0.000574> [hit #5] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[5956]  core @0.000139> request: GET / from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[5956] debug @0.000514> [hit #6] trying to match `/' against /^\/$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[5956]  core @0.000661> [hit #6]   --> got 1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 79
+[5956]  core @0.008293> [hit #6] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[5956]  core @0.000128> request: GET /flot/jquery.js from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[5956]  core @0.000518> [hit #7] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[5956]  core @0.000140> request: GET /flot/jquery.flot.js from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[5956]  core @0.000648> [hit #8] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[5956]  core @0.000147> request: GET /data from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[5956] debug @0.000560> [hit #9] trying to match `/data' against /^\/$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[5956] debug @0.000704> [hit #9] trying to match `/data' against /^\/add$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[5956] debug @0.000838> [hit #9] trying to match `/data' against /^\/data$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[5956]  core @0.000946> [hit #9]   --> got 1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 79
+[5956]  core @0.070663> [hit #9] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[5956]  core @0.000141> request: GET /favicon.ico from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[5956]  core @0.000572> [hit #10] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[5956]  core @0.000139> request: GET / from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[5956] debug @0.000522> [hit #11] trying to match `/' against /^\/$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[5956]  core @0.000692> [hit #11]   --> got 1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 79
+[5956]  core @0.012502> [hit #11] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[5956]  core @0.000213> request: GET /flot/jquery.js from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[5956]  core @0.000657> [hit #12] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[5956]  core @0.000139> request: GET /flot/jquery.flot.js from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[5956]  core @0.000562> [hit #13] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[5956]  core @0.000141> request: GET /data from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[5956] debug @0.000519> [hit #14] trying to match `/data' against /^\/$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[5956] debug @0.000659> [hit #14] trying to match `/data' against /^\/add$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[5956] debug @0.000792> [hit #14] trying to match `/data' against /^\/data$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[5956]  core @0.009443> [hit #14]   --> got 1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 79
+[5956]  core @0.065986> [hit #14] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[5956]  core @0.000142> request: GET /favicon.ico from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[5956]  core @0.000579> [hit #15] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[5956]  core @0.000143> request: GET /add from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[5956] debug @0.000645> [hit #16] trying to match `/add' against /^\/$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[5956] debug @0.000911> [hit #16] trying to match `/add' against /^\/add$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[5956]  core @0.001032> [hit #16]   --> got 1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 79
+[5956]  core @0.021302> [hit #16] response: 302 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[5956]  core @0.000141> request: GET / from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[5956] debug @0.000510> [hit #17] trying to match `/' against /^\/$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[5956]  core @0.000660> [hit #17]   --> got 1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 79
+[5956]  core @0.006290> [hit #17] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[5956]  core @0.000140> request: GET /flot/jquery.js from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[5956]  core @0.000694> [hit #18] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[5956]  core @0.000139> request: GET /flot/jquery.flot.js from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[5956]  core @0.000568> [hit #19] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[5956]  core @0.000139> request: GET /data from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[5956] debug @0.000513> [hit #20] trying to match `/data' against /^\/$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[5956] debug @0.000649> [hit #20] trying to match `/data' against /^\/add$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[5956] debug @0.000780> [hit #20] trying to match `/data' against /^\/data$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[5956]  core @0.000887> [hit #20]   --> got 1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 79
+[5956]  core @0.061271> [hit #20] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[5956]  core @0.000143> request: GET /favicon.ico from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[5956]  core @0.000578> [hit #21] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[6218]  core @0.000033> loading application ournowrimo in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer.pm l. 179
+[6218]  core @0.916418> loading Standalone handler in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 29
+[6218]  core @0.000162> request: GET / from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[6218] debug @0.000591> [hit #1] trying to match `/' against /^\/$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[6218]  core @0.000755> [hit #1]   --> got 1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 79
+[6218]  core @0.024909> [hit #1] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[6218]  core @0.000143> request: GET /flot/jquery.js from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[6218]  core @0.079956> [hit #2] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[6218]  core @0.000141> request: GET /flot/jquery.flot.js from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[6218]  core @0.000556> [hit #3] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[6218]  core @0.000141> request: GET /data from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[6218] debug @0.000517> [hit #4] trying to match `/data' against /^\/$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[6218] debug @0.000648> [hit #4] trying to match `/data' against /^\/add$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[6218] debug @0.000768> [hit #4] trying to match `/data' against /^\/data$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[6218]  core @0.000867> [hit #4]   --> got 1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 79
+[6218]  core @0.134308> [hit #4] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[6218]  core @0.000143> request: GET /favicon.ico from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[6218]  core @0.000576> [hit #5] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[6218]  core @0.000141> request: GET / from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[6218] debug @0.001334> [hit #6] trying to match `/' against /^\/$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[6218]  core @0.001549> [hit #6]   --> got 1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 79
+[6218]  core @0.016887> [hit #6] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[6218]  core @0.000141> request: GET /flot/jquery.js from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[6218]  core @0.000558> [hit #7] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[6218]  core @0.000143> request: GET /flot/jquery.flot.js from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[6218]  core @0.000563> [hit #8] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[6218]  core @0.000142> request: GET /data from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[6218] debug @0.000654> [hit #9] trying to match `/data' against /^\/$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[6218] debug @0.000794> [hit #9] trying to match `/data' against /^\/add$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[6218] debug @0.000918> [hit #9] trying to match `/data' against /^\/data$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[6218]  core @0.001016> [hit #9]   --> got 1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 79
+[6218]  core @0.082305> [hit #9] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[6218]  core @0.000142> request: GET /favicon.ico from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[6218]  core @0.000567> [hit #10] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[6218]  core @0.000143> request: GET / from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[6218] debug @0.000579> [hit #11] trying to match `/' against /^\/$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[6218]  core @0.000738> [hit #11]   --> got 1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 79
+[6218]  core @0.002473> [hit #11] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[6218]  core @0.000142> request: GET /flot/jquery.js from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[6218]  core @0.000568> [hit #12] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[6218]  core @0.000142> request: GET /flot/jquery.flot.js from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[6218]  core @0.000564> [hit #13] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[6218]  core @0.000144> request: GET /data from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[6218] debug @0.000511> [hit #14] trying to match `/data' against /^\/$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[6218] debug @0.000638> [hit #14] trying to match `/data' against /^\/add$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[6218] debug @0.000761> [hit #14] trying to match `/data' against /^\/data$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[6218]  core @0.000858> [hit #14]   --> got 1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 79
+[6218]  core @0.085364> [hit #14] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[6218]  core @0.000141> request: GET /favicon.ico from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[6218]  core @0.000567> [hit #15] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[6218]  core @0.000142> request: GET / from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[6218] debug @0.000513> [hit #16] trying to match `/' against /^\/$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[6218]  core @0.000655> [hit #16]   --> got 1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 79
+[6218]  core @0.003001> [hit #16] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[6218]  core @0.000144> request: GET /flot/jquery.js from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[6218]  core @0.000568> [hit #17] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[6218]  core @0.000142> request: GET /flot/jquery.flot.js from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[6218]  core @0.000658> [hit #18] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[6218]  core @0.000147> request: GET /data from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[6218] debug @0.000517> [hit #19] trying to match `/data' against /^\/$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[6218] debug @0.000644> [hit #19] trying to match `/data' against /^\/add$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[6218] debug @0.000767> [hit #19] trying to match `/data' against /^\/data$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[6218]  core @0.000923> [hit #19]   --> got 1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 79
+[6218]  core @0.069392> [hit #19] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[6218]  core @0.000146> request: GET /favicon.ico from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[6218]  core @0.000581> [hit #20] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[6218]  core @0.000142> request: GET / from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[6218] debug @0.000518> [hit #21] trying to match `/' against /^\/$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[6218]  core @0.000662> [hit #21]   --> got 1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 79
+[6218]  core @0.008052> [hit #21] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[6218]  core @0.000142> request: GET /flot/jquery.js from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[6218]  core @0.000561> [hit #22] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[6218]  core @0.000144> request: GET /flot/jquery.flot.js from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[6218]  core @0.000561> [hit #23] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[6218]  core @0.000141> request: GET /data from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[6218] debug @0.000516> [hit #24] trying to match `/data' against /^\/$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[6218] debug @0.000649> [hit #24] trying to match `/data' against /^\/add$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[6218] debug @0.000773> [hit #24] trying to match `/data' against /^\/data$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[6218]  core @0.000872> [hit #24]   --> got 1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 79
+[6218]  core @0.096543> [hit #24] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[6218]  core @0.000143> request: GET /favicon.ico from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[6218]  core @0.000560> [hit #25] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[6218]  core @0.000144> request: GET / from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[6218] debug @0.000523> [hit #26] trying to match `/' against /^\/$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[6218]  core @0.000669> [hit #26]   --> got 1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 79
+[6218]  core @0.015708> [hit #26] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[6218]  core @0.000142> request: GET /flot/jquery.js from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[6218]  core @0.000568> [hit #27] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[6218]  core @0.000143> request: GET /flot/jquery.flot.js from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[6218]  core @0.001062> [hit #28] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[6218]  core @0.000143> request: GET /data from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[6218] debug @0.002433> [hit #29] trying to match `/data' against /^\/$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[6218] debug @0.002746> [hit #29] trying to match `/data' against /^\/add$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[6218] debug @0.002884> [hit #29] trying to match `/data' against /^\/data$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[6218]  core @0.003032> [hit #29]   --> got 1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 79
+[6218]  core @0.076178> [hit #29] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[6218]  core @0.000146> request: GET /favicon.ico from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[6218]  core @0.000584> [hit #30] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[6218]  core @0.000144> request: GET / from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[6218] debug @0.000530> [hit #31] trying to match `/' against /^\/$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[6218]  core @0.000684> [hit #31]   --> got 1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 79
+[6218]  core @0.011071> [hit #31] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[6218]  core @0.000144> request: GET /flot/jquery.js from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[6218]  core @0.000614> [hit #32] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[6218]  core @0.000143> request: GET /flot/jquery.flot.js from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[6218]  core @0.000577> [hit #33] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[6218]  core @0.000243> request: GET /data from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[6218] debug @0.000625> [hit #34] trying to match `/data' against /^\/$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[6218] debug @0.000763> [hit #34] trying to match `/data' against /^\/add$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[6218] debug @0.000895> [hit #34] trying to match `/data' against /^\/data$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[6218]  core @0.001002> [hit #34]   --> got 1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 79
+[6218]  core @0.088118> [hit #34] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[6218]  core @0.000142> request: GET /favicon.ico from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[6218]  core @0.000579> [hit #35] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[6218]  core @0.000145> request: GET / from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[6218] debug @0.000535> [hit #36] trying to match `/' against /^\/$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[6218]  core @0.002084> [hit #36]   --> got 1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 79
+[6218]  core @0.025718> [hit #36] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[6218]  core @0.000142> request: GET /flot/jquery.js from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[6218]  core @0.000575> [hit #37] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[6218]  core @0.000130> request: GET /flot/jquery.flot.js from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[6218]  core @0.000655> [hit #38] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[6218]  core @0.000145> request: GET /data from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[6218] debug @0.000521> [hit #39] trying to match `/data' against /^\/$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[6218] debug @0.000657> [hit #39] trying to match `/data' against /^\/add$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[6218] debug @0.000788> [hit #39] trying to match `/data' against /^\/data$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[6218]  core @0.000894> [hit #39]   --> got 1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 79
+[6218]  core @0.078475> [hit #39] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[6218]  core @0.000141> request: GET /favicon.ico from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[6218]  core @0.000572> [hit #40] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[6218]  core @0.000146> request: GET /add from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[6218] debug @0.000526> [hit #41] trying to match `/add' against /^\/$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[6218] debug @0.000699> [hit #41] trying to match `/add' against /^\/add$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[6218]  core @0.000809> [hit #41]   --> got 1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 79
+[6218]  core @0.024842> [hit #41] response: 302 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[6218]  core @0.000143> request: GET / from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[6218] debug @0.000523> [hit #42] trying to match `/' against /^\/$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[6218]  core @0.000676> [hit #42]   --> got 1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 79
+[6218]  core @0.002691> [hit #42] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[6218]  core @0.000145> request: GET /flot/jquery.js from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[6218]  core @0.000573> [hit #43] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[6218]  core @0.000143> request: GET /flot/jquery.flot.js from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[6218]  core @0.000576> [hit #44] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[6218]  core @0.000147> request: GET /data from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[6218] debug @0.000520> [hit #45] trying to match `/data' against /^\/$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[6218] debug @0.000649> [hit #45] trying to match `/data' against /^\/add$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[6218] debug @0.000771> [hit #45] trying to match `/data' against /^\/data$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[6218]  core @0.000866> [hit #45]   --> got 1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 79
+[6218]  core @0.089944> [hit #45] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[6218]  core @0.000142> request: GET /favicon.ico from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[6218]  core @0.000562> [hit #46] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[6650]  core @0.000021> loading application ournowrimo in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer.pm l. 179
+[6664]  core @0.000024> loading application ournowrimo in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer.pm l. 179
+[6664]  core @0.797226> loading Standalone handler in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 29
+[6664]  core @0.006503> request: GET / from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[6664] debug @0.006999> [hit #1] trying to match `/' against /^\/$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[6664]  core @0.007163> [hit #1]   --> got 1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 79
+[6664]  core @0.027554> [hit #1] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[6664]  core @0.000145> request: GET /flot/jquery.js from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[6664]  core @0.102476> [hit #2] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[6664]  core @0.000137> request: GET /flot/jquery.flot.js from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[6664]  core @0.000553> [hit #3] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[6664]  core @0.000142> request: GET /data from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[6664] debug @0.000520> [hit #4] trying to match `/data' against /^\/$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[6664] debug @0.000650> [hit #4] trying to match `/data' against /^\/add$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[6664] debug @0.000772> [hit #4] trying to match `/data' against /^\/data$/ in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 73
+[6664]  core @0.000977> [hit #4]   --> got 1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Route.pm l. 79
+[6664]  core @0.242843> [hit #4] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
+[6664]  core @0.000140> request: GET /favicon.ico from 127.0.0.1 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 44
+[6664]  core @0.000574> [hit #5] response: 200 in /home/yanick/perl5/perlbrew/perls/perl-5.12.0/lib/site_perl/5.12.0/Dancer/Handler.pm l. 102
